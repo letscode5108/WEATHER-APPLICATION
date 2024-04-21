@@ -39,10 +39,10 @@ function fetchWeather(location) {
             descriptionElement.textContent = data.weather[0].main;
 
             if(data.weather[0].main == "Clouds"){
-                weathericon.src="./clouds.png";
+                weathericon.src="clouds.png";
             }
             else if(data.weather[0].main == "Clear"){
-                weathericon.src="./clear.png";
+                weathericon.src="clear.png";
             }
             else if(data.weather[0].main == "Rain"){
                 weathericon.src="rain.png";
