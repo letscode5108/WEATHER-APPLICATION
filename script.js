@@ -39,22 +39,22 @@ function fetchWeather(location) {
             descriptionElement.textContent = data.weather[0].main;
 
             if(data.weather[0].main == "Clouds"){
-                weathericon.src="images/clouds.png";
+                weathericon.src="clouds.png";
             }
             else if(data.weather[0].main == "Clear"){
-                weathericon.src="images/clear.png";
+                weathericon.src="clear.png";
             }
             else if(data.weather[0].main == "Rain"){
-                weathericon.src="images/rain.png";
+                weathericon.src="rain.png";
             }
             else if(data.weather[0].main == "Drizzle"){
-                weathericon.src="images/drizzle.png";
+                weathericon.src="drizzle.png";
             }
             else if(data.weather[0].main == "Mist"){
-                weathericon.src="images/mist.png";
+                weathericon.src="mist.png";
             }
             else if(data.weather[0].main == "Snow"){
-                weathericon.src="images/snow.png";
+                weathericon.src="snow.png";
             }
 
          document.querySelector(".weather-info").style.display="block";
