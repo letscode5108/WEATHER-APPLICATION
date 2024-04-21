@@ -41,6 +41,9 @@ function fetchWeather(location) {
             if(data.weather[0].main == "Clouds"){
                 weathericon.src="clouds.png";
             }
+              else if(data.weather[0].main == "Haze"){
+                weathericon.src="clouds.png";
+            }
             else if(data.weather[0].main == "Clear"){
                 weathericon.src="clear.png";
             }
